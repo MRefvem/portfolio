@@ -1,3 +1,5 @@
+'use strict'
+
 // Make constant: express
 
 const express = require('express');
