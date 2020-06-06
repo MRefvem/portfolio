@@ -512,7 +512,7 @@ button,
 
 /* Header */
 
-#header .top {
+ .top {
 	-moz-flex-grow: 1;
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
@@ -562,7 +562,7 @@ button,
 }
 
 #logo .image {
-	position: absolute;
+	position: relative;
 	left: 0;
 	top: 0;
 }

@@ -23,7 +23,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 	transition: none !important;
 }
 
-a:hover {
+hover {
 	color: #E27689;
 	border-bottom-color: rgba(255, 255, 255, 0);
 }
@@ -1396,7 +1396,20 @@ button:active,
   /* Header */
 
     #header {
-      width: 20%;
+			width: 20%;
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: space-between;
+			-webkit-justify-content: space-between;
+			-ms-justify-content: space-between;
+			justify-content: space-between;
+			flex-wrap: wrap;
     }
 
     #logo .image {
@@ -1495,7 +1508,6 @@ button:active,
       overflow-y: auto;
       position: fixed;
       top: 0;
-      width: 275px;
       z-index: 10002;
       width: 275px;
       background: #222729 url("images/overlay.png");
@@ -1551,6 +1563,18 @@ button:active,
       }
 
         #headerToggle .toggle:before {
+					/* display: -moz-flex;
+					display: -webkit-flex;
+					display: -ms-flex;
+					display: flex;
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					-moz-justify-content: space-between;
+					-webkit-justify-content: space-between;
+					-ms-justify-content: space-between;
+					justify-content: space-between; */
           font-family: FontAwesome;
           text-decoration: none;
           font-style: normal;
@@ -1664,7 +1688,7 @@ button:active,
 
       #main section.cover header {
         padding: 0 1em;
-      }
+			}
 
   /* Footer */
 
