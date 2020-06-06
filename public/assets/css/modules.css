@@ -674,7 +674,7 @@ margin-bottom: 0;
 
 	#main > section.one {
 		background-color: #81918E;
-		background-image: url("../../images/mt-pilchuck.png");
+		background-image: url("../../images/mt-pilchuck.png"), url("../../images/prague.png");
 	}
 
 	#main > section.two {
