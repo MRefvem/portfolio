@@ -1489,7 +1489,7 @@ button:active,
   /* Header */
 
     #header {
-      -moz-backface-visibility: hidden;
+      /* -moz-backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       -ms-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -1501,7 +1501,7 @@ button:active,
       -webkit-transition: -webkit-transform 0.5s ease;
       -ms-transition: -ms-transform 0.5s ease;
       transition: transform 0.5s ease;
-      -webkit-overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch; */
       display: block;
       height: 100%;
       left: 0;
@@ -1563,7 +1563,7 @@ button:active,
       }
 
         #headerToggle .toggle:before {
-					/* display: -moz-flex;
+					display: -moz-flex;
 					display: -webkit-flex;
 					display: -ms-flex;
 					display: flex;
@@ -1574,7 +1574,7 @@ button:active,
 					-moz-justify-content: space-between;
 					-webkit-justify-content: space-between;
 					-ms-justify-content: space-between;
-					justify-content: space-between; */
+					justify-content: space-between;
           font-family: FontAwesome;
           text-decoration: none;
           font-style: normal;
@@ -1592,7 +1592,7 @@ button:active,
           left: 0.5em;
           top: 0.5em;
           display: block;
-          width: 3.25em;
+          width: 20%;
           height: 2.25em;
           line-height: 2.25em;
         }
@@ -1636,7 +1636,7 @@ button:active,
       -ms-transition: -ms-transform 0.5s ease;
       transition: transform 0.5s ease;
       padding-bottom: 1px;
-      margin-left: 0;
+			margin-left: 0;
     }
 
       #main > section {
@@ -1653,7 +1653,21 @@ button:active,
 
 @media screen and (max-width: 736px) {
 
-  /* Basic */
+	/* Basic */
+	
+	#headerToggle .toggle:before {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
 
     body, input, textarea, select {
       font-size: 14pt;
